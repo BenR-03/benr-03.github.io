@@ -1,0 +1,41 @@
+<style>
+	#SOCSCalendar{
+		border:1px solid #043964; padding:10px; margin:10px; width:600px;
+		font-family: "Segoe UI", Arial, sans-serif;
+	}
+
+	#SOCSCalendar h1{
+		color:navy; margin:20px 5px 10px; font-weight:bold; font-size:22pt;
+	}
+
+	table.socs_day_events{
+		width:100%; border-collapse: collapse;
+	}
+
+	table.socs_day_events th{padding:4px; text-align:left; color:black; font-weight:700;}
+
+	table.socs_day_events td{padding:4px; text-align:left;border:1px solid;border-color: #043964 transparent #043964 transparent;}
+
+	table.socs_day_events td.Timings{
+		white-space:nowrap; width:150px;
+	}
+
+	table.socs_day_events td.Venue{
+		width:150px;
+	}
+
+	table.socs_day_events td.Title{
+		width:150px;
+	}
+
+	table.socs_day_events span.canc{
+		color:red;
+	}
+</style>
+
+<div id="SOCSCalendar"><!-- SOCS Diary data will appear here --></div>
+
+<script src="https://www.socscms.com/socs/plugin/api.js"></script>
+<script type="text/javascript">
+   var socsURL = 'https://www.socscms.com/socs/plugin/api.ashx?key=B0C694B8-DFB6-4836-A3FC-64C549DDACFB&A=1&D='
+</script>
